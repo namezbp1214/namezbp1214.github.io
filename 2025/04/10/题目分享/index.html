@@ -14,7 +14,7 @@
   
   
   <title>
-    Archives: 2024 |
+    题目分享 |
     
     Hexo
   </title>
@@ -29,13 +29,32 @@
 
   
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2024/index.html">
+    <meta name="description" content="BUUCTF[2019红帽杯]easyRE一.打开题目进行下载查壳 文件是elf文件，下载之后拖入ExeinfoPE中进行查壳  发现是64位文件，无壳 二.将文件拖入到64位IDA中进行进一步分析进入IDA中发现该文件找不到main函数，那就shift+F12打开string窗口跟踪一下存储的字符串常量  在第一行发现一串可疑字符串点开  观察这一串长字符串应该是base加密后的产物 Vm0wd">
+<meta property="og:type" content="article">
+<meta property="og:title" content="题目分享">
+<meta property="og:url" content="http://example.com/2025/04/10/%E9%A2%98%E7%9B%AE%E5%88%86%E4%BA%AB/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="BUUCTF[2019红帽杯]easyRE一.打开题目进行下载查壳 文件是elf文件，下载之后拖入ExeinfoPE中进行查壳  发现是64位文件，无壳 二.将文件拖入到64位IDA中进行进一步分析进入IDA中发现该文件找不到main函数，那就shift+F12打开string窗口跟踪一下存储的字符串常量  在第一行发现一串可疑字符串点开  观察这一串长字符串应该是base加密后的产物 Vm0wd">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/image-20250410194721834.png">
+<meta property="og:image" content="http://example.com/image-20250410195236877.png">
+<meta property="og:image" content="http://example.com/image-20250410200014840.png">
+<meta property="og:image" content="http://example.com/image-20250410200240784.png">
+<meta property="og:image" content="http://example.com/image-20250410201237902.png">
+<meta property="og:image" content="http://example.com/image-20250410202320312.png">
+<meta property="og:image" content="http://example.com/image-20250410211015339.png">
+<meta property="og:image" content="http://example.com/image-20250410212432176.png">
+<meta property="og:image" content="http://example.com/image-20250410212928515.png">
+<meta property="og:image" content="http://example.com/image-20250410213050037.png">
+<meta property="og:image" content="http://example.com/image-20250410213826309.png">
+<meta property="og:image" content="http://example.com/image-20250411094416079.png">
+<meta property="og:image" content="http://example.com/image-20250411094509857-1744335911299-1.png">
+<meta property="og:image" content="http://example.com/image-20250411100351421.png">
+<meta property="article:published_time" content="2025-04-10T10:48:58.000Z">
+<meta property="article:modified_time" content="2025-04-11T02:03:54.324Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image-20250410194721834.png">
   
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -146,7 +165,7 @@
 <header id="header">
   
     
-      <img fetchpriority="high" src="/images/banner.webp" alt="">
+      <img fetchpriority="high" src="/images/banner.webp" alt="题目分享">
     
   
   <div id="header-outer">
@@ -155,7 +174,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Archives</h1>
+            <h1 data-aos="slide-up">题目分享</h1>
           </a>
         
       
@@ -171,87 +190,129 @@
 
         <div id="content">
           
-          <section id="main">
-<div class="archives-outer-wrap" data-aos="fade-up">
-  <div class="tag-wrap">
+          <section id="main"><article id="post-题目分享" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner" data-aos="fade-up">
+    <div class="article-meta">
+      <div class="article-date">
+  <a href="/2025/04/10/%E9%A2%98%E7%9B%AE%E5%88%86%E4%BA%AB/" class="article-date-link" data-aos="zoom-in">
+    <time datetime="2025-04-10T10:48:58.000Z" itemprop="datePublished">2025-04-10</time>
+    <time style="display: none;" id="post-update-time">2025-04-11</time>
+  </a>
+</div>
+
+      
+
+    </div>
+    <div class="hr-line"></div>
     
-  </div>
-  <div class="category-wrap">
-    
-  </div>
-  
-  
-    
-    
+
+    <div class="e-content article-entry" itemprop="articleBody">
       
       
-      <section class="archives-wrap" data-aos="fade-up">
-        <div class="archive-year-wrap">
-          <a href="/archives/2024" class="archive-year">2024</a>
-        </div>
-        <ul>
-          
-          <li class="archive-article">
-  <div class="archive-article-date-wrap">
-    <a href="/2024/10/27/%E5%88%9D%E5%AD%A6%E5%AF%86%E7%A0%81%E5%AD%A6/">
-      <time class="dt-published" datetime="2024-10-27T08:02:21.000Z" itemprop="datePublished">10-27</time>
-    </a>
-  </div>
-  
-    
-      <a class="archive-article-title" href="/2024/10/27/%E5%88%9D%E5%AD%A6%E5%AF%86%E7%A0%81%E5%AD%A6/">初学密码学</a>
-    
-  
-</li>
+        <h1 id="BUUCTF-2019红帽杯-easyRE"><a href="#BUUCTF-2019红帽杯-easyRE" class="headerlink" title="BUUCTF[2019红帽杯]easyRE"></a>BUUCTF[2019红帽杯]easyRE</h1><h2 id="一-打开题目进行下载查壳"><a href="#一-打开题目进行下载查壳" class="headerlink" title="一.打开题目进行下载查壳"></a>一.打开题目进行下载查壳</h2><p><img src="/image-20250410194721834.png" alt="image-20250410194721834"></p>
+<p>文件是elf文件，下载之后拖入ExeinfoPE中进行查壳</p>
+<p><img src="/image-20250410195236877.png" alt="image-20250410195236877"></p>
+<p>发现是64位文件，无壳</p>
+<h2 id="二-将文件拖入到64位IDA中进行进一步分析"><a href="#二-将文件拖入到64位IDA中进行进一步分析" class="headerlink" title="二.将文件拖入到64位IDA中进行进一步分析"></a>二.将文件拖入到64位IDA中进行进一步分析</h2><p>进入IDA中发现该文件找不到main函数，那就shift+F12打开string窗口跟踪一下存储的字符串常量</p>
+<p><img src="/image-20250410200014840.png" alt="image-20250410200014840"></p>
+<p>在第一行发现一串可疑字符串点开</p>
+<p><img src="/image-20250410200240784.png" alt="image-20250410200240784"></p>
+<p>观察这一串长字符串应该是base加密后的产物</p>
+<p>Vm0wd2VHUXhTWGhpUm1SWVYwZDRWVll3Wkc5WFJsbDNXa1pPVlUxV2NIcFhhMk0xVmpKS1NHVkdXbFpOYmtKVVZtcEtTMUl5VGtsaVJtUk9ZV3hhZVZadGVHdFRNVTVYVW01T2FGSnRVbGhhVjNoaFZWWmtWMXBFVWxSTmJFcElWbTAxVDJGV1NuTlhia0pXWWxob1dGUnJXbXRXTVZaeVdrWm9hVlpyV1hwV1IzaGhXVmRHVjFOdVVsWmlhMHBZV1ZSR1lWZEdVbFZTYlhSWFRWWndNRlZ0TVc5VWJGcFZWbXR3VjJKSFVYZFdha1pXWlZaT2NtRkhhRk5pVjJoWVYxZDBhMVV3TlhOalJscFlZbGhTY1ZsclduZGxiR1J5VmxSR1ZXSlZjRWhaTUZKaFZqSktWVkZZYUZkV1JWcFlWV3BHYTFkWFRrZFRiV3hvVFVoQ1dsWXhaRFJpTWtsM1RVaG9hbEpYYUhOVmJUVkRZekZhY1ZKcmRGTk5Wa3A2VjJ0U1ExWlhTbFpqUldoYVRVWndkbFpxUmtwbGJVWklZVVprYUdFeGNHOVhXSEJIWkRGS2RGSnJhR2hTYXpWdlZGVm9RMlJzV25STldHUlZUVlpXTlZadE5VOVdiVXBJVld4c1dtSllUWGhXTUZwell6RmFkRkpzVWxOaVNFSktWa1phVTFFeFduUlRhMlJxVWxad1YxWnRlRXRXTVZaSFVsUnNVVlZVTURrPQ&#x3D;&#x3D;</p>
+<p>在网站上经历十次base64解密后得到一个网址：<a target="_blank" rel="noopener" href="https://bbs.pediy.com/thread-254172.htm">https://bbs.pediy.com/thread-254172.htm</a></p>
+<p>打开发现是一篇文章，而且对于本题没有提示，是一个干扰信息</p>
+<p><img src="/image-20250410201237902.png" alt="image-20250410201237902"></p>
+<p>在可疑字符串的下面有一串英文You found me！！！像是存在关键信息的地方，打开后的位置无法进行反编译出伪C代码，那就用快捷键Ctrl+X查看调用这个字符串的地方并进入</p>
+<p><img src="/image-20250410202320312.png" alt="image-20250410202320312"></p>
+<p>感觉这个函数应该是主函数，将函数名重名为main；主函数中有一串三串字符串v12，v13,v14，</p>
+<p>而且在v12，v13的字符串的最后还加了一个数字127，在Ascii中对应空格，也就是说v12，v13字符串相较于上面的多了一个空格，下面的函数对v15进行了处理；先进行了对于v15长度的判断，v15的长度是36；然后进入了（0，35）的循环v15[i]^i&#x3D;&#x3D;v12[i] (v12字符串循环后用下面的v13,v14的字符串)</p>
+<p>那么将v12,v13,v14的字符串连起来进行(0,35)的循环分别与i进行异或就能得到字符串v15</p>
+<p>以下为python代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">v = &quot;Iodl&gt;Qnb(ocy y.i d`3w&#125;wek9&#123;iy=~yL@EC&quot;</span><br><span class="line">v15 = &quot;&quot;</span><br><span class="line">for i in range(len(v)): </span><br><span class="line">    v15 += chr(ord(v[i]) ^ i)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">print(v15)</span><br></pre></td></tr></table></figure>
 
-          
-    
-    
-          <li class="archive-article">
-  <div class="archive-article-date-wrap">
-    <a href="/2024/10/27/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">
-      <time class="dt-published" datetime="2024-10-27T03:31:14.000Z" itemprop="datePublished">10-27</time>
-    </a>
-  </div>
-  
-    
-      <a class="archive-article-title" href="/2024/10/27/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">这是我的第一篇博客</a>
-    
-  
-</li>
+<p><img src="/image-20250410211015339.png" alt="image-20250410211015339"></p>
+<p>输出结果如上，大概应该是说”flag”字符在后面应该会用得上</p>
+<p>继续向下分析代码</p>
+<p><img src="/image-20250410212432176.png" alt="image-20250410212432176"></p>
+<p>sub_400E44这个函数进行了10次，点开分析后发现是base64编码，应该就是之前的十次base64解密得出网址的干扰信息，继续向下分析</p>
+<p><img src="/image-20250410212928515.png" alt="image-20250410212928515"></p>
+<p>点开off_6CC090</p>
+<p><img src="/image-20250410213050037.png" alt="image-20250410213050037"></p>
+<p>在左边有可疑函数交叉引用后进入函数</p>
+<p><img src="/image-20250410213826309.png" alt="image-20250410213826309"></p>
+<p>进入函数后分析该函数，发现</p>
+<p><img src="/image-20250411094416079.png" alt="image-20250411094416079"></p>
+<p><img src="/image-20250411094509857-1744335911299-1.png" alt="image-20250411094509857"></p>
+<p>这段函数中的byte_6CC0A0与byte_6CC0A3对应的数据与v1，v4异或后为”f”,”g”,联想到之前所出现的flag字符；反过来异或一下便能求出这串字符串</p>
+<p>接着向下进行分析发现进入了(0,24)的循环当中，从byte_6CC0A0开始的字符与求出的v4字符串进行异或，构建pytho代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">byte_6CC0A3 = [0x40,0x35,0x20,0x56,0x5D,0x18,0x22,0x45,0x17,0x2F,0x24,0x6E,0x62,0x3C,0x27,0x54,0x48,0x6C,0x24,0x6E,0x72,0x3C,0x32,0x45,0x5B]</span><br><span class="line">key = &quot;&quot;</span><br><span class="line">flag = &quot;&quot;</span><br><span class="line">v15 = &quot;flag&quot;</span><br><span class="line">for i in range(4):</span><br><span class="line">    key+=chr(byte_6CC0A3[i]^ord(v15[i]))</span><br><span class="line">print(key)</span><br><span class="line">for j in range(len(byte_6CC0A3)):</span><br><span class="line">    flag+=chr(byte_6CC0A3[j]^ord(key[j%4]))</span><br><span class="line">print(flag)</span><br></pre></td></tr></table></figure>
 
-          
-    
-    
-          <li class="archive-article">
-  <div class="archive-article-date-wrap">
-    <a href="/2024/10/16/hello-world/">
-      <time class="dt-published" datetime="2024-10-16T06:29:30.119Z" itemprop="datePublished">10-16</time>
-    </a>
-  </div>
-  
-    
-      <a class="archive-article-title" href="/2024/10/16/hello-world/">Hello World</a>
-    
-  
-</li>
+<p>输出结果为：</p>
+<p><img src="/image-20250411100351421.png" alt="image-20250411100351421"></p>
 
-          
-          
-        </ul>
-      </section>
-  
+      
+    </div>
+    <footer class="article-footer">
+      
+        
+      
+      
+      
+      
+      
+      
+      
+
+    </footer>
   </div>
+  
+    
+  <nav id="article-nav" data-aos="fade-up">
+    
+    
+    <div class="article-nav-link-wrap article-nav-link-right">
+      
+        
+        
+          <img data-src="/images/banner.webp" data-sizes="auto" alt="安卓逆向" class="lazyload">
+        
+      
+      <a href="/2025/03/30/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/"></a>
+      <div class="article-nav-caption">Older</div>
+      <h3 class="article-nav-title">
+        
+          安卓逆向
+        
+      </h3>
+    </div>
+    
+  </nav>
+
+
+  
+</article>
+
+
+
 
 
 
 </section>
           
             <aside id="sidebar">
-  <div class="sidebar-wrapper ">
+  <div class="sidebar-wrapper wrap-sticky">
     <div class="sidebar-wrap" data-aos="fade-up">
       
-        <div class="sidebar-author">
+        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#BUUCTF-2019%E7%BA%A2%E5%B8%BD%E6%9D%AF-easyRE"><span class="toc-number">1.</span> <span class="toc-text">BUUCTF[2019红帽杯]easyRE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80-%E6%89%93%E5%BC%80%E9%A2%98%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%B8%8B%E8%BD%BD%E6%9F%A5%E5%A3%B3"><span class="toc-number">1.1.</span> <span class="toc-text">一.打开题目进行下载查壳</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C-%E5%B0%86%E6%96%87%E4%BB%B6%E6%8B%96%E5%85%A5%E5%88%B064%E4%BD%8DIDA%E4%B8%AD%E8%BF%9B%E8%A1%8C%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%88%86%E6%9E%90"><span class="toc-number">1.2.</span> <span class="toc-text">二.将文件拖入到64位IDA中进行进一步分析</span></a></li></ol></li></ol>
+      
+  </div>
+</div>
+</div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="John Doe" class="lazyload">
   <div class="sidebar-author-name">John Doe</div>
   <div class="sidebar-description"></div>
@@ -300,8 +361,13 @@
     </div>
   
 </div>
-
+</div>
       
+      
+        <div class="sidebar-btn-wrapper" style="position:static">
+          <div class="sidebar-toc-btn current"></div>
+          <div class="sidebar-common-btn"></div>
+        </div>
       
     </div>
   </div>
@@ -361,7 +427,16 @@
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
-      <div class="sidebar-author">
+      <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">Contents</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#BUUCTF-2019%E7%BA%A2%E5%B8%BD%E6%9D%AF-easyRE"><span class="toc-number">1.</span> <span class="toc-text">BUUCTF[2019红帽杯]easyRE</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80-%E6%89%93%E5%BC%80%E9%A2%98%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%B8%8B%E8%BD%BD%E6%9F%A5%E5%A3%B3"><span class="toc-number">1.1.</span> <span class="toc-text">一.打开题目进行下载查壳</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C-%E5%B0%86%E6%96%87%E4%BB%B6%E6%8B%96%E5%85%A5%E5%88%B064%E4%BD%8DIDA%E4%B8%AD%E8%BF%9B%E8%A1%8C%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%88%86%E6%9E%90"><span class="toc-number">1.2.</span> <span class="toc-text">二.将文件拖入到64位IDA中进行进一步分析</span></a></li></ol></li></ol>
+      
+  </div>
+</div>
+</div>
+      <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="John Doe" class="lazyload">
   <div class="sidebar-author-name">John Doe</div>
   <div class="sidebar-description"></div>
@@ -410,9 +485,14 @@
     </div>
   
 </div>
-
+</div>
     
   </div>
+  
+    <div class="sidebar-btn-wrapper">
+      <div class="sidebar-toc-btn current"></div>
+      <div class="sidebar-common-btn"></div>
+    </div>
   
 </nav>
 
